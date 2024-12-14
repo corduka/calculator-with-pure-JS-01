@@ -1,0 +1,44 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+}
+
+body {
+    background: linear-gradient(to right, #00AAFF, #00FF6C);
+}
+h1 {
+    text-align: center;
+}
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+}
+.button {
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+    border: 1px solid white;
+    margin: 2px;
+    outline: none;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 255, .75);
+    
+}
+.button:hover {
+    background-color: rgba(255, 255, 255, 255, .9);
+    color: #00AAFF;
+}
+.textview {
+    width: 223px;
+    height: 80px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 25px;
+    background: #000000;
+    color: white
+}
+
